@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Image Hosting</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #373b3b, #7d8196);
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        text-align: center;
+      }
+      img {
+        max-width: 95%;
+        max-height: 90vh;
+        border: 2px solid #fff;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      }
+      h1 {
+        color: #fff;
+        margin-bottom: 10px;
+        text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.4);
+      }
+
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 1.2rem; /* হেডলাইন ছোট হবে */
+        }
+        img {
+          max-width: 95%; /* স্ক্রিন প্রায় পুরো ব্যবহার করবে */
+          max-height: 70vh; /* উচ্চতা কিছুটা কম */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Developer Anupom Shuvo</h1>
+      <img src="/anupom_shuvo.jpeg" alt="My Image" />
+    </div>
+  </body>
+</html>
